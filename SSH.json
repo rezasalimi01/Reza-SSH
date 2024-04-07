@@ -1,7 +1,4 @@
-//profile-title: Reza SSH Configs 🇪🇺
-//profile-update-interval: 144
-//subscription-userinfo: upload=455727941; download=0; total=unlimited; expire=unlimited 
-
+//profile-title: Reza SSH Configs 🇪🇺 //profile-update-interval: 144 //subscription-userinfo: upload=455727941; download=0; total=unlimited; expire=unlimited 
 
 
 
@@ -18,7 +15,7 @@
       {
         "domain": [
           "dnslow.me",
-          "nl2.ssh0.net"
+          "gbr1.ipv6-labs.com"
         ],
         "server": "dns-direct"
       },
@@ -113,12 +110,21 @@
   "outbounds": [
     {
       "password": "1",
-      "server": "nl2.ssh0.net",
+      "server": "gbr1.ipv6-labs.com",
       "server_port": 22,
-      "user": "sshocean-rez9",
+      "user": "sshocean-rez22",
       "type": "ssh",
       "domain_strategy": "",
-      "tag": "🇳🇱 Netherlands"
+      "tag": "🇬🇧 London"
+    },
+    {
+      "password": "1",
+      "server": "tr1.ssh0.net",
+      "server_port": 22,
+      "user": "sshocean-rez7",
+      "type": "ssh",
+      "domain_strategy": "",
+      "tag": "🇹🇷 Turkey"
     },
     {
       "password": "1",
@@ -131,56 +137,21 @@
     },
     {
       "password": "1",
-      "server": "tr1.ssh0.net",
+      "server": "nl2.ssh0.net",
       "server_port": 22,
-      "user": "sshocean-rez7",
-      "type": "ssh",
-      "domain_strategy": "",
-      "tag": "🇹🇷 Turkey"
-    },
-      "password": "1",
-      "server": "uk1.ssh0.net",
-      "server_port": 22,
-      "user": "sshocean-rez6",
-      "type": "ssh",
-      "domain_strategy": "",
-      "tag": "🇬🇧 London"
-    },
-    {
-      "password": "1",
-      "server": "be1.wscom.pro",
-      "server_port": 2082,
-      "user": "sshocean-rez4",
-      "type": "ssh",
-      "domain_strategy": "",
-      "tag": "🇧🇪 Belgium"
-    },
-    {
-      "password": "1",
-      "server": "ee2.wscom.pro",
-      "server_port": 2082,
-      "user": "sshocean-rez2",
-      "type": "ssh",
-      "domain_strategy": "",
-      "tag": "🇪🇪 Estonia"
-    },
-    {
-      "password": "1",
-      "server": "it1.wscom.pro",
-      "server_port": 2082,
       "user": "sshocean-rez9",
       "type": "ssh",
       "domain_strategy": "",
-      "tag": "🇮🇹 Italy"
+      "tag": "🇳🇱 Netherlands"
     },
     {
       "password": "1",
-      "server": "se1.wscom.pro",
-      "server_port": 2082,
-      "user": "sshocean-rez1",
+      "server": "usa1.ssh0.net",
+      "server_port": 443,
+      "user": "sshocean-rez5",
       "type": "ssh",
       "domain_strategy": "",
-      "tag": "🇸🇪 Sweden"
+      "tag": "🇺🇸 United States"
     },
 
     {
